@@ -1,7 +1,5 @@
-package com.github.citiesapi;
+package com.github.citiesapi.countries;
 
-import com.github.citiesapi.countries.Country;
-import com.github.citiesapi.repositories.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
