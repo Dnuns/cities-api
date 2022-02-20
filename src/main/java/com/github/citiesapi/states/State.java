@@ -1,4 +1,4 @@
-package com.github.citiesapi.staties;
+package com.github.citiesapi.states;
 
 import com.github.citiesapi.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
