@@ -11,6 +11,10 @@ Durante a sessão, foram desenvolvidos e abordados os seguintes tópicos:
 * Desenvolvimento de testes unitários para validação das funcionalidades
 * Implantação do sistema na nuvem através do Heroku
 
+```
+https://cities-api-1.herokuapp.com
+```
+
 Para executar o projeto no terminal, digite o seguinte comando:
 
 ```shell script
@@ -20,20 +24,26 @@ mvn spring-boot:run
 Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
 
 ```
+https://cities-api-1.herokuapp.com/cities
 http://localhost:8080/cities
 ```
 ```
+https://cities-api-1.herokuapp.com/countries
 http://localhost:8080/countries
 ```
 ```
+https://cities-api-1.herokuapp.com/countries/258
 http://localhost:8080/countries/258
 ```
 ```
+https://cities-api-1.herokuapp.com/states
 http://localhost:8080/states
 ```
 ```
+https://cities-api-1.herokuapp.com/distances/by-points?from=4929&to=5254
 http://localhost:8080/distances/by-points?from=4929&to=5254
 ```
 ```
+https://cities-api-1.herokuapp.com/distances/by-cube?from=4929&to=5254
 http://localhost:8080/distances/by-cube?from=4929&to=5254
 ```
